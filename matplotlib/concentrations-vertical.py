@@ -66,9 +66,6 @@ ax1.plot(ppms, conc_40s, label="t = 40s", **marker_style, fillstyle='none', line
 ax2.plot(ppms, conc_60s, label="t = 60s", **marker_style, fillstyle='none', linestyle='None', color='r')
 ax3.plot(ppms, conc_80s, label="t = 80s", **marker_style, fillstyle='none', linestyle='None', color='r')
 
-# set labels
-# ax1.set_xlabel('Inlet H2O2 concentrations (ppm)')
-# ax1.set_ylabel('H2O2 concentrations in liquid (mg/l)')
 
 ax1.set_ylim([0.0, 0.08])
 ax2.set_ylim([0.0, 0.08])

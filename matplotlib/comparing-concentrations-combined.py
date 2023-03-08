@@ -171,18 +171,6 @@ ax1.set_yscale('log')
 ax2.set_yscale('log')
 ax3.set_yscale('log')
 
-# set labels
-# ax3.set_xlabel('Time (sec)')
-# ax3.set_ylabel('Density ( mol m$^{-3}$)')
-
-# Add secondary axis ticks
-# ax4 = ax1.secondary_yaxis("right")
-# ax4.tick_params(axis="y")
-# ax5 = ax2.secondary_yaxis("right")
-# ax5.tick_params(axis="y")
-# ax6 = ax3.secondary_yaxis("right")
-# ax6.tick_params(axis="y")
-# ax1.yaxis.tick_right()
 ax1.yaxis.set_ticks_position('both')
 ax2.yaxis.set_ticks_position('both')
 ax3.yaxis.set_ticks_position('both')
@@ -200,12 +188,6 @@ ax2.yaxis.set_minor_locator(locmin)
 ax2.yaxis.set_minor_formatter(matplotlib.ticker.NullFormatter())
 ax3.yaxis.set_minor_locator(locmin)
 ax3.yaxis.set_minor_formatter(matplotlib.ticker.NullFormatter())
-
-# ax3.legend(framealpha=0.0)
-# limiting x axis with max time available for simulations with reactions
-# ax1.set_xlim(0, times_to_consider_7_75)
-# ax2.set_xlim(0, times_to_consider_15)
-# ax3.set_xlim(0, times_to_consider_20)
 
 # limiting x axis with min(max(t_with_reactions))
 ax1.set_xlim(0, 25)

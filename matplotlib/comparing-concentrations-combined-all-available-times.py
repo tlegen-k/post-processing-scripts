@@ -157,19 +157,6 @@ ax1.set_yscale('log')
 ax2.set_yscale('log')
 ax3.set_yscale('log')
 
-# set labels
-# ax3.set_xlabel('Time (sec)')
-# ax3.set_ylabel('Density ( mol m$^{-3}$)')
-
-# Add secondary axis ticks
-# ax4 = ax1.secondary_yaxis("right")
-# ax4.tick_params(axis="y")
-# ax5 = ax2.secondary_yaxis("right")
-# ax5.tick_params(axis="y")
-# ax6 = ax3.secondary_yaxis("right")
-# ax6.tick_params(axis="y")
-# ax1.yaxis.tick_right()
-
 ax1.yaxis.set_ticks_position('both')
 ax2.yaxis.set_ticks_position('both')
 ax3.yaxis.set_ticks_position('both')
